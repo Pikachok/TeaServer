@@ -72,7 +72,7 @@
        Target="/ts/files" 
        Default="/mnt/user/appdata/ts/files" 
        Mode="rw" 
-       Description="files transfed path"
+       Description="path of transferred files"
        Required="true">/mnt/user/appdata/ts/files</Config>
     <Config 
        Type="Path" 

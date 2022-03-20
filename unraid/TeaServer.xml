@@ -4,7 +4,7 @@
     <Repository>ghcr.io/pikachok/teaserver:latest</Repository>
     <Privileged>false</Privileged>
     <Network>bridge</Network>
-    <Icon>https://avatars.githubusercontent.com/u/35042128?s=200&v=4</Icon>
+    <Icon>https://avatars.githubusercontent.com/u/35042128?s=200&amp;v=4</Icon>
     <!--porst-->
     <Config 
        Type="Port" 

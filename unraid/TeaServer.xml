@@ -1,6 +1,6 @@
  <?xml version="1.0" encoding="utf-8"?>
  <Container version="2">
-   <Name Default="TeaServer">TeaServer</Name>
+   <Name>TeaServer</Name>
    <Repository>ghcr.io/pikachok/teaserver:latest</Repository>
    <Privileged>false</Privileged>
    <Network Default="bridge">bridge</Network>

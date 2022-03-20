@@ -1,7 +1,8 @@
 FROM debian:11-slim
 
 LABEL version="2.0" \
-    description="A simple TeaSpeak server running on debian 11 (amd64_stable)"
+    description="A simple TeaSpeak server running on debian 11 (amd64_stable)" \
+    org.opencontainers.image.description="A simple TeaSpeak server running on debian 11 (amd64_stable)"
 
 ARG uid=4242
 ARG gid=4242

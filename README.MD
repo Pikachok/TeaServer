@@ -1,4 +1,4 @@
-# This is the FORK of official TeaSpeak docker repository
+# This is the `FORK` of official TeaSpeak docker repository
 This repository holds Dockerfile to build the TeaSpeak Server Image
 
 ## Table of Content

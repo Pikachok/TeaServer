@@ -1,12 +1,12 @@
- <?xml version="1.0" encoding="utf-8"?>
- <Container version="2">
-   <Name>TeaServer</Name>
-   <Repository>ghcr.io/pikachok/teaserver:latest</Repository>
-   <Privileged>false</Privileged>
-   <Network>bridge</Network>
-   <Icon>https://avatars.githubusercontent.com/u/35042128?s=200&v=4</Icon>
-   <!--porst-->
-   <Config 
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+    <Name>TeaServer</Name>
+    <Repository>ghcr.io/pikachok/teaserver:latest</Repository>
+    <Privileged>false</Privileged>
+    <Network>bridge</Network>
+    <Icon>https://avatars.githubusercontent.com/u/35042128?s=200&v=4</Icon>
+    <!--porst-->
+    <Config 
        Type="Port" 
        Name="" 
        Target="9987" 
@@ -15,7 +15,7 @@
        Description="" 
        Display="always" 
        Required="true">9987/tcp</Config>
-   <Config 
+    <Config 
        Type="Port" 
        Name="" 
        Target="9987" 
@@ -24,7 +24,7 @@
        Description="" 
        Display="always" 
        Required="true">9987/udp</Config>
-   <Config 
+    <Config 
        Type="Port" 
        Name="" 
        Target="10101" 
@@ -33,7 +33,7 @@
        Description="" 
        Display="always" 
        Required="true">10101</Config>
-   <Config 
+    <Config 
        Type="Port" 
        Name="" 
        Target="30303" 
@@ -42,8 +42,8 @@
        Description="" 
        Display="always" 
        Required="true">30303</Config>
-   <!--path-->
-   <Config 
+    <!--path-->
+    <Config 
        Type="Path" 
        Name="" 
        Target="/ts/logs" 
@@ -51,7 +51,7 @@
        Mode="rw" 
        Description=""
        Required="true">/mnt/user/appdata/ts/logs</Config>
-   <Config 
+    <Config 
        Type="Path" 
        Name="" 
        Target="/ts/database" 
@@ -59,7 +59,7 @@
        Mode="rw" 
        Description=""
        Required="true">/mnt/user/appdata/ts/database</Config>
-   <Config 
+    <Config 
        Type="Path" 
        Name="" 
        Target="/ts/files" 
@@ -67,7 +67,7 @@
        Mode="rw" 
        Description=""
        Required="true">/mnt/user/appdata/ts/files</Config>
-   <Config 
+    <Config 
        Type="Path" 
        Name="" 
        Target="/ts/certs" 
@@ -75,7 +75,7 @@
        Mode="rw" 
        Description=""
        Required="true">/mnt/user/appdata/ts/certs</Config>
-   <Config 
+    <Config 
        Type="Path" 
        Name="" 
        Target="/ts/config" 
@@ -83,7 +83,7 @@
        Mode="rw" 
        Description=""
        Required="true">/mnt/user/appdata/ts/config</Config>
-   <Config 
+    <Config 
        Type="Path" 
        Name="" 
        Target="/ts/crash_dumps" 
@@ -91,7 +91,7 @@
        Mode="rw" 
        Description=""
        Required="true">/mnt/user/appdata/ts/crash_dumps</Config>
-   <Config 
+    <Config 
        Type="Path" 
        Name="" 
        Target="/ts/logs" 
@@ -99,4 +99,4 @@
        Mode="rw" 
        Description=""
        Required="true">/mnt/user/appdata/ts</Config>
- </Container>
+</Container>

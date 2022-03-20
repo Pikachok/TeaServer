@@ -6,7 +6,7 @@
 
     [b][span style='color: #E80000;']WARNING: When you start TeaSpeak for the first time, save your server administrator password and token![/span][/b][br]
 
-    To access the logs use: docker logs name-container or logs path
+    To access the logs use: docker logs container-name|container-id or logs path
     </Overview>
     <Repository>ghcr.io/pikachok/teaserver:latest</Repository>
     <Privileged>false</Privileged>

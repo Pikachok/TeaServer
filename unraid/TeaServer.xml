@@ -8,95 +8,95 @@
     <!--porst-->
     <Config 
        Type="Port" 
-       Name="" 
+       Name="voice/tcp" 
        Target="9987" 
        Default="9987" 
        Mode="tcp" 
-       Description="" 
+       Description="voice/tcp port" 
        Display="always" 
        Required="true">9987/tcp</Config>
     <Config 
        Type="Port" 
-       Name="" 
+       Name="voice/udp" 
        Target="9987" 
        Default="9987" 
        Mode="udp" 
-       Description="" 
+       Description="voice/udp port" 
        Display="always" 
        Required="true">9987/udp</Config>
     <Config 
        Type="Port" 
-       Name="" 
+       Name="query" 
        Target="10101" 
        Default="10101" 
        Mode="tcp" 
-       Description="" 
+       Description="query port" 
        Display="always" 
        Required="true">10101</Config>
     <Config 
        Type="Port" 
-       Name="" 
+       Name="Filetransfer" 
        Target="30303" 
        Default="30303" 
        Mode="tcp" 
-       Description="" 
+       Description="Filetransfer port" 
        Display="always" 
        Required="true">30303</Config>
     <!--path-->
     <Config 
        Type="Path" 
-       Name="" 
+       Name="logs" 
        Target="/ts/logs" 
        Default="/mnt/user/appdata/ts/logs" 
        Mode="rw" 
-       Description=""
+       Description="logs path"
        Required="true">/mnt/user/appdata/ts/logs</Config>
     <Config 
        Type="Path" 
-       Name="" 
+       Name="database" 
        Target="/ts/database" 
        Default="/mnt/user/appdata/ts/database" 
        Mode="rw" 
-       Description=""
+       Description="sqlite path"
        Required="true">/mnt/user/appdata/ts/database</Config>
     <Config 
        Type="Path" 
-       Name="" 
+       Name="files" 
        Target="/ts/files" 
        Default="/mnt/user/appdata/ts/files" 
        Mode="rw" 
-       Description=""
+       Description="files transfed path"
        Required="true">/mnt/user/appdata/ts/files</Config>
     <Config 
        Type="Path" 
-       Name="" 
+       Name="certs" 
        Target="/ts/certs" 
        Default="/mnt/user/appdata/ts/certs" 
        Mode="rw" 
-       Description=""
+       Description="certs path"
        Required="true">/mnt/user/appdata/ts/certs</Config>
     <Config 
        Type="Path" 
-       Name="" 
+       Name="config" 
        Target="/ts/config" 
        Default="/mnt/user/appdata/ts/config" 
        Mode="rw" 
-       Description=""
+       Description="config file path"
        Required="true">/mnt/user/appdata/ts/config</Config>
     <Config 
        Type="Path" 
-       Name="" 
+       Name="crash_dumps" 
        Target="/ts/crash_dumps" 
        Default="/mnt/user/appdata/ts/crash_dumps" 
        Mode="rw" 
-       Description=""
+       Description="crash dumps path"
        Required="true">/mnt/user/appdata/ts/crash_dumps</Config>
     <Config 
        Type="Path" 
-       Name="" 
+       Name="logs" 
        Target="/ts/logs" 
        Default="/mnt/user/appdata/ts" 
        Mode="rw" 
-       Description=""
+       Description="logs path"
        Required="true">/mnt/user/appdata/ts</Config>
 </Container>

@@ -16,10 +16,10 @@ This repository holds Dockerfile to build the TeaSpeak Server Image
   
 ```shell script
 # Build the Image with the latest server
-docker build -f server/debian.Dockerfile -t teaspeak/server:latest-debian ./server
+docker build -t teaspeak/server:latest-debian .
 
 # alternatively with server version <x.y.z>
-# docker build -f server/debian.Dockerfile --build-arg SERVER_VERSION=<x.y.z> -t teaspeak/server:<x.y.z>-debian ./server
+# docker build --build-arg SERVER_VERSION=<x.y.z> -t teaspeak/server:<x.y.z>-debian .
 
 # run the Debian based server image
 docker run -d \

@@ -54,7 +54,7 @@ docker run -d \
 version: '3.7'
 services:
   teaspeak-server:
-    image: teaspeak/server:latest
+    image: ghcr.io/pikachok/teaserver:latest
     environment:
       - TZ=Europe/Amsterdam
     ports:
